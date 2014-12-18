@@ -1,0 +1,46 @@
+name = myblog
+description = 我的博客主题.
+version = VERSION
+core = 7.x
+base theme  = zen
+stylesheets[all][] = css/unsemantic-grid-responsive.css
+stylesheets[all][] = css/global.css
+
+scripts[] = js/jquery.js
+scripts[] = js/docs.js
+
+regions[header]         = Header
+regions[search]       = 搜索区域
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+
+regions[work]          = 作品 
+regions[user]          = 用户
+
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+
+
+
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+
+
+
